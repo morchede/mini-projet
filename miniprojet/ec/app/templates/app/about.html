@@ -1,0 +1,49 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block title %} About {% endblock title %}
+
+{% block banner-slider %}
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" >
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{% static 'app/images/banner/t.jpg' %}" class="d-block w-100" alt="banner image">
+    </div>
+    <div class="carousel-item ">
+      <img src="{% static 'app/images/banner/r.jpg' %}" class="d-block w-100" alt="banner image">
+    </div>
+    <div class="carousel-item ">
+      <img src="{% static 'app/images/banner/04.png' %}" class="d-block w-100" alt="banner image">
+    </div>
+    <div class="carousel-item ">
+      <img src="{% static 'app/images/banner/z.jpg' %}" class="d-block w-100" alt="banner image">
+    </div>
+    <div class="carousel-item ">
+      <img src="{% static 'app/images/banner/e.png' %}" class="d-block w-100" alt="banner image">
+    </div>
+  </div>
+ 
+</div>
+{% endblock banner-slider %}
+
+{% block main-content %}
+<div class="container mt-3">
+    <br>
+    <h1 class="text-center">About Us</h1>
+    <br>
+    <h5>À propos de Morched agence
+        Petite start-up néerlandaise créée en 1996 à Amsterdam, Morched agence est devenue l'une des plus grandes sociétés d'e-commerce au monde dans le secteur des voyages. Morched agence fait partie de Booking Holdings Inc. (NASDAQ : BKNG) et travaille chaque jour pour qu'explorer le monde soit à la portée de tous et de toutes.
+
+        Pour mener à bien cette mission et permettre à chacun de vivre des expériences en toute simplicité, la société investit dans la technologie. Morched agence propose ainsi à des millions de voyageurs des activités inoubliables, des options de transport optimales et des hébergements incroyables (maisons, hôtels, et bien plus encore). Morched agence est l’une des plus grandes plateformes de voyage au monde et sert aussi bien les grands groupes que les particuliers. Elle permet aux établissements de toutes tailles du monde entier d’atteindre une clientèle internationale et de développer leur activité.
+        
+        Morched agence est disponible dans 43 langues et propose plus de 28 millions d’hébergements, dont plus de 6,6 millions de maisons, d’appartements et de logements uniques. Quelles que soient votre destination et vos envies, Morched agence facilite vos voyages et vous garantit une assistance 24h/24 et 7j/7.<p>
+    <br>
+            <h1 class="text-center">Mission</h1>
+            <br>
+            <h5>Offrir un large choix d'hôtels: Le site devrait offrir un large choix d'hôtels pour satisfaire les besoins et les budgets de tous les voyageurs. Il doit également mettre à jour sa base de données d'hôtels pour fournir des informations précises et complètes sur chaque établissement.Faciliter la réservation: Le site doit offrir une interface utilisateur facile à utiliser pour permettre aux utilisateurs de trouver facilement l'hôtel qui correspond à leurs besoins et de réserver leur séjour en quelques clics. Offrir des tarifs compétitifs: Le site doit proposer des tarifs compétitifs pour les chambres d'hôtel, ainsi que des offres spéciales et des réductions pour encourager les utilisateurs à réserver avec Morched Agence.Assurer la sécurité des transactions: Le site doit garantir la sécurité des transactions pour protéger les informations de paiement et les données personnelles des utilisateurs.
+        
+             Fournir un service clientèle de qualité: Le site doit offrir un service clientèle de qualité pour répondre aux questions et préoccupations des utilisateurs, ainsi que pour traiter les problèmes liés aux réservations et aux paiements. Offrir des informations détaillées sur les hôtels: Le site doit fournir des informations détaillées sur chaque hôtel, y compris des photos, des descriptions, des commodités et des commentaires d'autres clients pour aider les utilisateurs à prendre des décisions éclairées lorsqu'ils réservent leur séjour. Proposer des options de paiement variées: Le site devrait offrir des options de paiement variées pour s'adapter aux différents besoins et préférences des clients, y compris les cartes de crédit, les portefeuilles électroniques et les virements bancaires.
+        
+              Mettre en avant les offres spéciales: Le site doit mettre en avant les offres spéciales telles que les promotions de dernières minutes, les offres de groupe et les packages de voyage pour attirer les clients et stimuler les ventes. Développer des partenariats avec les hôtels: Le site doit établir des partenariats avec les hôtels pour proposer des tarifs exclusifs et des offres spéciales pour les utilisateurs de Morched Agence. Maintenir une image de marque solide: Le site doit maintenir une image de marque solide et cohérente pour inspirer la confiance et la fidélité des clients.</h5>    
+</div>
+<br><br><br>
+{% endblock main-content %}

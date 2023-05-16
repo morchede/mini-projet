@@ -1,0 +1,18 @@
+.goodnessseccont img{
+    width:100%;
+}
+
+
+.mlkpro{
+    width: 43%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    line-height:22px;
+    font-size: 22px;
+    color: #636362;
+    text-align:center;
+}
+
+.goodnesssec a{
+    text-decoration: none;
+} 
